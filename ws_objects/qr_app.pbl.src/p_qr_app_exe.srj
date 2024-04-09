@@ -1,15 +1,15 @@
 ﻿$PBExportHeader$p_qr_app_exe.srj
 $PBExportComments$Generated Application Executable Project
-EXE:qr_app.exe,,0,1,1,0,C:\Program Files (x86)\Appeon\Common\PowerBuilder\Runtime 22.2.0.3289
+EXE:qr_app.exe,,0,1,1,0,C:\Program Files (x86)\Appeon\Common\PowerBuilder\Runtime 22.2.0.3356
 CMP:0,0,0,3,0,0,1
 COM:RSRSYSTEM
 DES:Appeon Power Builder 2022 Product File 64Bits
 CPY:Ramón San Félix Ramón
 PRD:Qr_app2022
-PVS:2022.3.3289.12
-PVN:2022,3,3289,12
-FVS:2022.3.3289.12
-FVN:2022,3,3289,12
+PVS:2022.3.3356.13
+PVN:2022,3,3356,13
+FVS:2022.3.3356.13
+FVN:2022,3,3356,13
 MAN:0,asInvoker,0
 PBD:qr_app.pbl,,1
 OBJ:C:\proyecto pw2022\Blog\PowerBuilder\qrcode\qr_app.pbl,qr_app,a
