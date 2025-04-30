@@ -1,19 +1,19 @@
-﻿$PBExportHeader$nvo_zxingnet6.sru
+﻿$PBExportHeader$nvo_zxingnet8.sru
 forward
-global type nvo_zxingnet6 from dotnetobject
+global type nvo_zxingnet8 from dotnetobject
 end type
 end forward
 
-global type nvo_zxingnet6 from dotnetobject
+global type nvo_zxingnet8 from dotnetobject
 event ue_error ( )
 end type
-global nvo_zxingnet6 nvo_zxingnet6
+global nvo_zxingnet8 nvo_zxingnet8
 
 type variables
 
 PUBLIC:
-String is_assemblypath = gs_AppDir + "ZxingNet6\ZxingBarcode.dll"
-String is_classname = "ZxingBarcode.ZxingNet6"
+String is_assemblypath = gs_AppDir + "ZxingNet8\ZxingBarcode.dll"
+String is_classname = "ZxingBarcode.ZxingNet8"
 
 /* Exception handling -- Indicates how proxy handles .NET exceptions */
 Boolean ib_CrashOnException = False
@@ -306,12 +306,12 @@ Catch(runtimeerror re_error)
 End Try
 end function
 
-on nvo_zxingnet6.create
+on nvo_zxingnet8.create
 call super::create
 TriggerEvent( this, "constructor" )
 end on
 
-on nvo_zxingnet6.destroy
+on nvo_zxingnet8.destroy
 TriggerEvent( this, "destructor" )
 call super::destroy
 end on
