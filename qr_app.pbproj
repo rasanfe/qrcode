@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Project>
+  <Type Name="pb"/>
+  <Application Name="qr_app"/>
+  <Libraries AppEntry="qr_app.pbl">
+    <Library Path="qr_app.pbl"/>
+    <Library Path="dotnet.pbl"/>
+  </Libraries>
+</Project>
