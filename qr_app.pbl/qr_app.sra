@@ -16,8 +16,9 @@ end variables
 global type qr_app from application
 string appname = "qr_app"
 string displayname = "Qr_App"
-string themepath = "C:\Program Files (x86)\Appeon\Shared\PowerBuilder\theme190"
-string themename = "Flat Design Dark"
+integer highdpimode = 0
+string themepath = "C:\Program Files (x86)\Appeon\PowerBuilder 25.0\IDE\theme"
+string themename = "Do Not Use Themes"
 boolean nativepdfvalid = false
 boolean nativepdfincludecustomfont = false
 string nativepdfappname = ""
@@ -26,7 +27,7 @@ long richtexteditx64type = 5
 long richtexteditversion = 3
 string richtexteditkey = ""
 string appicon = "icono.ico"
-string appruntimeversion = "25.0.0.3683"
+string appruntimeversion = "25.0.0.3711"
 boolean manualsession = false
 boolean unsupportedapierror = false
 boolean ultrafast = false
@@ -36,7 +37,6 @@ long webview2distribution = 0
 boolean webview2checkx86 = false
 boolean webview2checkx64 = false
 string webview2url = "https://developer.microsoft.com/en-us/microsoft-edge/webview2/"
-integer highdpimode = 0
 end type
 global qr_app qr_app
 
