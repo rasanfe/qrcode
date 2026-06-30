@@ -7,3 +7,7 @@ build/
 *.exe
 *.usr.opt
 *_mig.log
+
+# Regenerable (no versionar)
+*.pra
+/QR_IMAGEN/qr.png
