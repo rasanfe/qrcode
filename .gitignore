@@ -1,1 +1,9 @@
-/qr_app.xml
+
+
+# Regenerables de PowerBuilder (no versionar) - anadido por mantenimiento
+.pb/
+build/
+*.pbd
+*.exe
+*.usr.opt
+*_mig.log
